@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish-Thank You</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/thankyou.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168226867-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-168226867-1');
+    </script>
+</head>
+<body>
+    <header class="base">
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            </div>
+            <div class="search">
+                <input id="web-input" type="text">
+                <a href="javascript:void(0);" ><img id="search1" src="images/search.png" alt="search"></a>
+                <a href="javascript:void(0);" id="searchItemButton" ><img id="search2" src="images/search-hover.png" alt="search"></a>
+                <input class="pop-up-input" type="text">
+            </div>
+            <ul>
+                <li><a href="index.html?tag=women" id="getDataFromWomen">女裝</a></li>
+                <div class="line">&nbsp;</div>
+                <li><a href="index.html?tag=men" id="getDataFromMen">男裝</a></li>
+                <div class="line">&nbsp;</div>
+                <li><a href="index.html?tag=accessories" id="getDataFromAccessories">配件</a></li>
+            </ul>
+            
+            <div class="icon">
+                <a href="cart.html">
+                    <div class="bag">
+                        <img id="cart1" src="images/cart-mobile.png" alt="cart">
+                        <img id="cart2" src="images/cart-hover.png" alt="cart">
+                        <img id="cart-for-web" src="images/cart.png" alt="cart">
+                        <div id="cart-number-icon"></div>
+                        <p>購物車</p>
+                    </div>
+                </a>
+                <div class="line">&nbsp;</div>
+                <a href="#">
+                    <div class="member">
+                        <img id="member1" src="images/member-mobile.png" alt="member">
+                        <img id="member2" src="images/member-hover.png" alt="member">
+                        <img id="member-for-web" src="images/member.png" alt="cart">
+                        <p>會員</p>
+                    </div>
+                </a>
+            </div>
+        </nav>
+        <div class="black-bar"></div>
+    </header>
+    <section>
+        <div class="content">
+            感謝您的購買，祝您有個美好的一天！
+        </div>
+        <div class="order">
+            <div class="text">請記住訂單編號，以便查詢</div>
+            <div class="number" id="order-number">123456</div>
+        </div>
+        <a href="index.html" class="continue">看看其他商品</a>
+        <div class="blank"></div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="item text">
+                <a href="#">關於 Stylish</a>
+                <a href="#">服務條款</a>
+                <a href="#">隱私政策</a>
+            </div>
+            <div class="item text">
+                <a href="#">聯絡我們</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div class="item logo">
+                <a href="#"><img src="images/line.png" alt="line"></a>
+                <a href="#"><img src="images/twitter.png" alt="twitter"></a>
+                <a href="#"><img src="images/facebook.png" alt="facebook"></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2018. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/thankyou.js"></script>
+</body>
+</html>
